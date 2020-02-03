@@ -1,0 +1,33 @@
+
+const students = [
+  'Charles Grimes',
+  'Chris Postma',
+  'Cody Smith',
+  'Cristina Peña',
+  'Daniel Reardon',
+  'Ed Stoner',
+  'Erik Raith',
+  'Harry Borrelli',
+  'Jeremy Hai Poulter',
+  'John Watterson',
+  'Jonathan Tschida',
+  'Jordan Whitten',
+  'Karen Nguyen',
+  'Karl Nielsen',
+  'Kevin Johnson',
+  'Kimala Cochran',
+  'Kyle Barnett',
+  'Lane Hunter',
+  'Liliana Manrique',
+  'Madison Randlen',
+  'Mandy Alford',
+  'Megan Venetianern',
+  'Melissa Steele',
+  'Olivia Webster',
+  'Ryan Bahan',
+  'Tanisha Davey',
+  'Taras Tarlov',
+  'Tim Quoc Nguyen',
+  'Trond Makonese'
+]
+module.exports = students;
