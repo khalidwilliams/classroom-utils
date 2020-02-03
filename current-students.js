@@ -1,4 +1,3 @@
-
 const students = [
   'Charles Grimes',
   'Chris Postma',
@@ -29,5 +28,6 @@ const students = [
   'Taras Tarlov',
   'Tim Quoc Nguyen',
   'Trond Makonese'
-]
+];
+
 module.exports = students;
