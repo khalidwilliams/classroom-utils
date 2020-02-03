@@ -1,4 +1,4 @@
-# Student Utilities
+# Classroom Utilities
 
 This repo will hold a series of utility methods meant to make classroom processes easier (especially while remote). 
 
