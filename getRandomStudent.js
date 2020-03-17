@@ -1,16 +1,5 @@
-const students = require('./current-students.js');
-
-function fyShuffle (array) {
-  for (let i = array.length; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1));
-    let k = array[i];
-    array[i] = array[j];
-    array[j] = k;
-  }
-}
-
-fyShuffle(students);
+const shuffledStudents = require('./randomize.js');
 
 
-let randomStudent = students.pop();
+let randomStudent = shuffledStudents.pop();
 console.log(randomStudent);
