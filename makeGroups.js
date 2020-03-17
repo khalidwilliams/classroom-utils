@@ -1,5 +1,5 @@
 const shuffledStudents = require('./shuffle');
-
+const formatter = require('./formatter');
 // Take in a number for group size 
 // Break the array into groups of that size
 // Give formatting options?
@@ -27,4 +27,10 @@ function makeGroups(students, groupSize) {
 }
 
 const groupedStudents = makeGroups(shuffledStudents, groupSize);
+
+if (optionalFormat) {
+  formatter[optionalFormat](groupedStudents);
+  process.exit();
+};
+
 console.log(groupedStudents);
