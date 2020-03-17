@@ -11,6 +11,7 @@ function fyShuffle (array) {
   return newArray;
 }
 
-const shuffledStudents = fyShuffle(students);
+let shuffledStudents = fyShuffle(students);
+shuffledStudents = shuffledStudents.filter(student => student);
 
 module.exports = shuffledStudents;
