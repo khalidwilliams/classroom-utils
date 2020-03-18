@@ -21,6 +21,4 @@ const students = [
   'Trond Makonese'
 ];
 
-console.log(students);
-
 module.exports = students;
