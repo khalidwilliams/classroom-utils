@@ -1,4 +1,4 @@
-const shuffledStudents = require('./randomize.js');
+const shuffledStudents = require('./shuffle.js');
 
 
 let randomStudent = shuffledStudents.pop();
