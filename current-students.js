@@ -11,7 +11,6 @@ const students = [
   'Jordan Whitten',
   'Karen Nguyen',
   'Kyle Barnett',
-  'Lane Hunter',
   'Liliana Manrique',
   'Mandy Alford',
   'Megan Venetianer',
